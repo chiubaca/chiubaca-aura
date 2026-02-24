@@ -1,8 +1,8 @@
 {
   "name": "chiubaca-aura",
   "displayName": "Chiubaca Aura",
-  "description": "An amber and midnight blue VS Code theme inspired by chiubaca's aura",
-  "version": "1.0.0",
+  "description": "An amber and midnight blue VS Code theme with light and pastel variants - inspired by chiubaca's aura",
+  "version": "1.1.0",
   "publisher": "chiubaca",
   "engines": {
     "vscode": "^1.75.0"
@@ -20,6 +20,16 @@
         "label": "Chiubaca Aura",
         "uiTheme": "vs-dark",
         "path": "./themes/chiubaca-aura-color-theme.json"
+      },
+      {
+        "label": "Chiubaca Aura Light",
+        "uiTheme": "vs",
+        "path": "./themes/chiubaca-aura-light.json"
+      },
+      {
+        "label": "Chiubaca Aura Pastel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/chiubaca-aura-pastel.json"
       }
     ]
   },
@@ -28,6 +38,8 @@
     "midnight",
     "blue",
     "dark",
+    "light",
+    "pastel",
     "theme"
   ]
 }
