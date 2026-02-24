@@ -2,32 +2,19 @@
 
 A VS Code theme inspired by my aura: **warm amber with a hint of midnight blue**.
 
-## The Palette
+## Palette
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│   PRIMARY COLORS                                        │
-│   ─────────────────────────────────────────────────────│
-│   Amber Glow      ████████  #f0a500  (accent)          │
-│   Midnight Depth  ████████  #0d1117  (background)      │
-│   Electric Blue   ████████  #79c0ff  (highlights)      │
-│   Coral Fire      ████████  #ff7b72  (keywords)        │
-│   Soft Green      ████████  #7ee787  (strings)         │
-│   Lavender        ████████  #d2a8ff  (decorators)      │
-│   Warm Orange     ████████  #ffa657  (variables)       │
-│   Soft White      ████████  #c9d1d9  (foreground)      │
-│   Muted Gray      ████████  #484f58  (comments)        │
-│                                                         │
-│   UI COLORS                                              │
-│   ─────────────────────────────────────────────────────│
-│   Panel BG       ████████  #0d1117                      │
-│   Sidebar BG     ████████  #0d1117                      │
-│   Activity Bar   ████████  #0d1117                      │
-│   Status Bar     ████████  #161b22                      │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Amber Glow | `#f0a500` | Accent, active states, cursor |
+| Midnight | `#0d1117` | Background |
+| Electric Blue | `#79c0ff` | Constants, links |
+| Coral Fire | `#ff7b72` | Keywords, errors |
+| Soft Green | `#7ee787` | Strings |
+| Lavender | `#d2a8ff` | Decorators |
+| Warm Orange | `#ffa657` | Variables |
+| Soft White | `#c9d1d9` | Foreground |
+| Muted Gray | `#484f58` | Comments |
 
 ## Installation
 
@@ -51,20 +38,6 @@ vsce package
 # Install the generated .vsix file
 code --install-extension chiubaca-aura-1.0.0.vsix
 ```
-
-## Color Meanings
-
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Amber Glow | `#f0a500` | Accent, active states, cursor, buttons |
-| Midnight | `#0d1117` | Main background, deepest UI |
-| Electric Blue | `#79c0ff` | Constants, numbers, links |
-| Coral Fire | `#ff7b72` | Keywords, errors, operators |
-| Soft Green | `#7ee787` | Strings, success states |
-| Lavender | `#d2a8ff` | Decorators, function calls |
-| Warm Orange | `#ffa657` | Parameters, variables |
-| Soft White | `#c9d1d9` | Main text, foreground |
-| Muted Gray | `#484f58` | Comments, disabled states |
 
 ## Why These Colors?
 
