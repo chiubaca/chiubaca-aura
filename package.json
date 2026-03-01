@@ -2,7 +2,7 @@
   "name": "chiubaca-aura",
   "displayName": "Chiubaca Aura",
   "description": "An amber and midnight blue VS Code theme with light and pastel variants - inspired by chiubaca's aura",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "chiubaca",
   "engines": {
     "vscode": "^1.75.0"
